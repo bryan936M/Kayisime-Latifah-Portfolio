@@ -324,6 +324,7 @@ section {
   .main {
     flex-direction: column-reverse;
     height: 100%;
+    margin-bottom: 20vh;
   }
   .main-text {
     width: 100%;
@@ -341,6 +342,7 @@ section {
   .about-me {
     height: 100%;
     padding: 0;
+    margin-bottom: 20vh;
   }
 
   .about-me .content {
@@ -361,6 +363,7 @@ section {
 
   .talent-section {
     height: 100%;
+    margin-bottom: 20vh;
   }
 
   .talents {
@@ -369,6 +372,7 @@ section {
 
   .experience-section {
     height: 100%;
+    margin-bottom: 20vh;
   }
   .experiences {
     grid-template-columns: repeat(1, 1fr);
@@ -382,8 +386,22 @@ section {
     width: 100%;
   }
 
+  .talent-section > h2 {
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+  }
+
+  .contact-section {
+    width: 80%;
+    height: 100%;
+  }
+
   .contact {
     flex-direction: column;
+  }
+
+  .contact-form {
+    margin-bottom: 10vh;
   }
 
 }
