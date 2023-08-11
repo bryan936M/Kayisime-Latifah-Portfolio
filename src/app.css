@@ -50,7 +50,6 @@ section {
 }
 
 .latifah-picture {
-  width: 40%;
   height: 50vh;
   width: 50vh;
   margin: 0 auto;
@@ -318,15 +317,25 @@ section {
     max-width: 100vw;
   }
 
+  .portfolio__header {
+    height: 100%;
+  }
+
   .main {
     flex-direction: column-reverse;
+    height: 100%;
   }
   .main-text {
     width: 100%;
   }
+
   .latifah-picture {
-    width: 100%;
-    height: 100%;
+    margin-bottom: 20px;
+    height: 30vh;
+    width: 30vh;
+    aspect-ratio: 1/1;
+    background-size: contain;
+    border-radius: 50%;
   }
 
   .about-me {
@@ -338,8 +347,16 @@ section {
     flex-direction: column;
   }
 
+  .content > img {
+    margin-bottom: 40px;
+  }
+
   .about-me-text {
     width: 100%;
+  }
+
+  .about-me-text > p {
+    font-size: 1rem;
   }
 
   .talent-section {
@@ -368,4 +385,5 @@ section {
   .contact {
     flex-direction: column;
   }
+
 }
