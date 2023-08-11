@@ -8,8 +8,8 @@ function App() {
   return (
     <>
       <div className="portfolio__header">
-        <a href="#">Hire Me</a>
-        <button>Resume</button>
+        <a href="Resume.pdf" download='My Resume.pdf' >Resume</a>
+        <button>Hire Me</button>
       </div>
       <section className="main">
         <div className="main-text">
