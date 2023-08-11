@@ -319,6 +319,7 @@ section {
 
   .portfolio__header {
     height: 100%;
+    margin-top: 10px;
   }
 
   .main {
