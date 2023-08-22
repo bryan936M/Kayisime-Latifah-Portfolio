@@ -5,6 +5,7 @@ import latifah2 from "./assets/latifah_2.jpg";
 import twitter from "./assets/twitter-logojpg.jpg";
 import linkedin from "./assets/linkedin-logo.png";
 import instagram from "./assets/instagram-logo.png";
+import interview from "./assets/interview.mp4"
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       <div className="portfolio__header">
         <div className="portfolio__links">
           <a href="Resume.pdf">Resume</a>
-          <a href="cover-letter.pdf">Cover Letter</a>
+          <a href="cover-letter-CC.pdf">Cover Letter</a>
+          <a href="INTERVIEW QUESTIONS AND ANSWERS">Interview</a>
         </div>
         <button>Hire Me</button>
       </div>
@@ -119,11 +121,22 @@ function App() {
         </div>
       </section>
 
+      <section className="video-section">
+        <video controls autoPlay className="video">
+          <source src={interview} type="video/mp4" />
+        </video>
+      </section>
+
       <section className="experience-section">
         <h2>My Past Experience</h2>
         <div className="experiences">
           <div className="experience one">
-            <img src={latifah} alt="Work Picture" />
+            <img src={latifah2} alt="Work Picture" />
+            <span>Giants of africa</span>
+            <a href="#">View Company</a>
+          </div>
+          <div className="experience one">
+            <img src={latifah1} alt="Work Picture" />
             <span>Africa Soft power Summit</span>
             <a href="#">View Company</a>
           </div>
