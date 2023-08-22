@@ -1,5 +1,7 @@
 import "./app.css";
 import latifah from "./assets/latifah.jpg";
+import latifah1 from "./assets/latifah_1.jpg";
+import latifah2 from "./assets/latifah_2.jpg";
 import twitter from "./assets/twitter-logojpg.jpg";
 import linkedin from "./assets/linkedin-logo.png";
 import instagram from "./assets/instagram-logo.png";
