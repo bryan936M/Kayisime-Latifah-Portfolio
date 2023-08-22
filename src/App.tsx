@@ -14,7 +14,7 @@ function App() {
         <div className="portfolio__links">
           <a href="Resume.pdf">Resume</a>
           <a href="cover-letter-CC.pdf">Cover Letter</a>
-          <a href="INTERVIEW QUESTIONS AND ANSWERS">Interview</a>
+          <a href="INTERVIEW QUESTIONS AND ANSWERS.pdf">Interview</a>
         </div>
         <button>Hire Me</button>
       </div>
