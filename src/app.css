@@ -213,13 +213,6 @@ section {
   row-gap: 2rem;
 }
 
-.experience {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items:first baseline
-}
-
 .experience > span {
   font-size: 1.3rem;
   font-weight: 600;
